@@ -10,7 +10,7 @@ body {
 }
 
 .media-info-msg {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
@@ -22,7 +22,7 @@ body {
   background-color: coral;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .media-info-msg {
     opacity: 0;
   }
